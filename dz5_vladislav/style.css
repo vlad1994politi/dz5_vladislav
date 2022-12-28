@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.usd {
+    margin-top: 50px;
+}
+
+.eur {
+    margin-top: 50px;
+}
+
+
+input {
+    padding: 10px 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.post__content {
+    margin-top: 50px;
+    display: flex;
+    position: center;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
